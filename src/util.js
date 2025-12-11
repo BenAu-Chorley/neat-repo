@@ -1,5 +1,3 @@
-function test() {
+export function test() {
 	return true;
 }
-
-export default test;
