@@ -1,2 +1,6 @@
+import { test } from './util.js';
+
 console.log('Testing 5');
 console.log(['apple', 'banana', 'cherry', 'durian'].filter(f => f.indexOf('e') >= 0).join(','));
+
+console.log(`The result of test is: ${test()}`);
